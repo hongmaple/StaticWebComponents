@@ -1,0 +1,183 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>照片墙</title>
+<script src="js/jquery.min.js"></script>
+
+
+<style>
+@charset "utf-8";
+body {
+background:gainsboro;/*背景颜色*/
+}
+.div_pic {
+width:800px;
+height:1000px;
+margin:60px auto;
+position:relative;
+
+
+}
+.p {
+/*内边距*/
+padding:10px 10px 10px;
+background:white;/*图片白色背景*/
+/*背景*/
+/*左移，下移，虚化*/
+box-shadow:5px 5px 4px rgba(50,50,50,0.5);/*图片阴影*/
+width:50px; /*图片宽度*/
+/*相对定位*/ 
+}
+/*鼠标悬浮图片变大*/
+.div_pic img:hover {
+transform:rotate(10deg) scale(1.5);
+z-index:9;
+}
+.div_pic .a{
+display: inline-block;
+left: 50px;
+}
+.div_pic .a .a1{
+margin-top: 60px;
+}
+.div_pic .b{
+display: inline-block;
+position: absolute;
+left: 90px;
+}
+.div_pic .c{
+display: inline-block;
+position: absolute;
+left: 180px;
+}
+.div_pic .d{
+display: inline-block;
+position: absolute;
+left: 270px;
+}
+.div_pic .d .d1{
+margin-top: 60px;
+}
+.div_pic .e{
+display: inline-block;
+position: absolute;
+left: 360px;
+}
+.div_pic .e .e1{
+margin-top: 120px;
+}
+.div_pic .f{
+display: inline-block;
+position: absolute;
+left:450px;
+}
+.div_pic .f .f1{
+margin-top: 60px;
+}
+.div_pic .g{
+display: inline-block;
+position: absolute;
+left:540px;
+}
+.div_pic .g .g1{
+margin-top: 0px;
+}
+.div_pic .h{
+display: inline-block;
+position: absolute;
+left:630px;
+}
+.div_pic .h .h1{
+margin-top: 0px;
+}
+.div_pic .i{
+display: inline-block;
+position: absolute;
+left:720px;
+}
+.div_pic .i .i1{
+margin-top: 60px;
+}
+</style>
+</head>
+<body>
+<div class="div_pic">
+<div class="a">
+   <div class="a1"><img class="p p1" src="2.jpeg"></div>
+   <div class="a2"><img class="p p2" src="2.jpeg"></div>
+   <div class="a3"><img class="p p3" src="2.jpeg"></div>
+   <div class="a4"><img class="p p4" src="2.jpeg"></div>
+    </div>
+    <div class="b">
+   <div class="b1"><img class="p p5" src="2.jpeg"></div>
+   <div class="b2"><img class="p p6" src="3.webp"></div>
+   <div class="b3"><img class="p p7" src="3.webp"></div>
+   <div class="b4"><img class="p p8" src="3.webp"></div>
+   <div class="b5"><img class="p p9" src="3.webp"></div>
+   <div class="b6"><img class="p p10" src="2.jpeg"></div>
+    </div>
+    <div class="c">
+   <div class="c1"><img class="p p11" src="2.jpeg"></div>
+   <div class="c2"><img class="p p12" src="3.webp"></div>
+   <div class="c3"><img class="p p13" src="1.jpg"></div>
+   <div class="c4"><img class="p p14" src="1.jpg"></div>
+   <div class="c5"><img class="p p15" src="1.jpg"></div>
+   <div class="c6"><img class="p p16" src="3.webp"></div>
+   <div class="c7"><img class="p p17" src="2.jpeg"></div>
+    </div>
+    <div class="d">
+   <div class="d1"><img class="p p18" src="2.jpeg"></div>
+   <div class="d2"><img class="p p19" src="3.webp"></div>
+   <div class="d3"><img class="p p20" src="1.jpg"></div>
+   <div class="d4"><img class="p p21" src="4.png"></div>
+   <div class="d5"><img class="p p22" src="1.jpg"></div>
+   <div class="d6"><img class="p p23" src="3.webp"></div>
+   <div class="d7"><img class="p p24" src="2.jpeg"></div>
+    </div>
+    <div class="e">
+   <div  class="e1"><img class="p p25" src="2.jpeg"></div>
+   <div  class="e2"><img class="p p26" src="3.webp"></div>
+   <div  class="e3"><img class="p p27" src="1.jpg"></div>
+   <div  class="e4"><img class="p p28" src="4.png"></div>
+   <div  class="e5"><img class="p p29" src="1.jpg"></div>
+   <div  class="e6"><img class="p p30" src="3.webp"></div>
+   <div  class="e7"><img class="p p31" src="2.jpeg"></div>
+    </div>
+     <div class="f">
+   <div  class="f1"><img class="p p32" src="2.jpeg"></div>
+   <div  class="f2"><img class="p p33" src="3.webp"></div>
+   <div  class="f3"><img class="p p34" src="1.jpg"></div>
+   <div  class="f4"><img class="p p35" src="4.png"></div>
+   <div  class="f5"><img class="p p36" src="1.jpg"></div>
+   <div  class="f6"><img class="p p37" src="3.webp"></div>
+   <div  class="f7"><img class="p p38" src="2.jpeg"></div>
+    </div>
+    <div class="g">
+   <div  class="g1"><img class="p p39" src="2.jpeg"></div>
+   <div  class="g2"><img class="p p40" src="3.webp"></div>
+   <div  class="g3"><img class="p p41" src="1.jpg"></div>
+   <div  class="g4"><img class="p p42" src="1.jpg"></div>
+   <div  class="g5"><img class="p p43" src="1.jpg"></div>
+   <div  class="g6"><img class="p p44" src="3.webp"></div>
+   <div  class="g7"><img class="p p45" src="2.jpeg"></div>
+    </div>
+    <div class="h">
+   <div  class="h1"><img class="p p46" src="2.jpeg"></div>
+   <div  class="h2"><img class="p p47" src="3.webp"></div>
+   <div  class="h3"><img class="p p48" src="3.webp"></div>
+   <div  class="h4"><img class="p p49" src="3.webp"></div>
+   <div  class="h6"><img class="p p51" src="3.webp"></div>
+   <div  class="h7"><img class="p p52" src="2.jpeg"></div>  
+    </div>
+    <div class="i">
+   <div  class="i1"><img class="p p53" src="2.jpeg"></div>
+   <div  class="i2"><img class="p p54" src="2.jpeg"></div>
+   <div  class="i3"><img class="p p55" src="2.jpeg"></div>
+   <div  class="i4"><img class="p p56" src="2.jpeg"></div>
+    </div>
+</div>
+<script>
+</script>
+</body>
+</html>
