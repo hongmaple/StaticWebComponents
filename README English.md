@@ -1,25 +1,25 @@
 <div align="right">
-  <a title="English" href="/README_English.md">English</a>
+  <a title="English" href="/README.md">中文</a>
 </div>
 
 # 项目介绍
-本项目收集有趣的前端特效网页源码，有游戏，祝福特效等
+This project collects interesting front-end special effects webpage source code, including games, blessing effects, etc
 
-| 目录 | 描述 |
+| contents | describe |
 | ---------------------| -------------- |
-| fireworks_effects           | 简单的粒子烟花特效 |
-| font_of_fireworks             | 字体粒子烟花特效，可以添加文字 |
-| fruit_slice         | 水果忍者网页版 |
-| love_photo_wall   | 爱心照片墙 |
-| love_tree          | html5唯美爱情表白动画网页代码，可以配置背景音乐|
-| mother's_day       | 母亲节 爱心树祝福网页 |
-| NewYearFirework       | 新年快乐烟花祝福网站，有祝福文字特效 |
-| shuffling_photo_album| 照片墙 合集 |
-| texiao    | 粒子特效 |
-| xiangqi    | 中国象棋 |
+| fireworks_effects           | Simple particle fireworks special effects |
+| font_of_fireworks             | Font particle fireworks effect, can add text |
+| fruit_slice         | Fruit Ninja Web Version |
+| love_photo_wall   | Love photo wall |
+| love_tree          | HTML5 Beautiful Love Confession Animation Website Code, Can Configure Background Music|
+| mother's_day       | Mother's Day Love Tree Blessing Website |
+| NewYearFirework       | Happy New Year Fireworks Blessing Website with Blessing Text Special Effects |
+| shuffling_photo_album| Photo Wall Collection |
+| texiao    | Particle Effects |
+| xiangqi    | Chinese Chess |
 
 # 运行效果
-## 点击标题预览
+## Click on the title to preview
 
 ###  [fireworks_effects](https://blog.hongmaple.top/StaticWebComponents/fireworks_effects)
 <img src="img/fireworks_effects.png" alt="fireworks_effects">
