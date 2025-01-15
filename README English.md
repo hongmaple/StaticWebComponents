@@ -5,6 +5,8 @@
 # 项目介绍
 This project collects interesting front-end special effects webpage source code, including games, blessing effects, etc
 
+Source code address：[StaticWebComponents](https://gitee.com/hongmaple/StaticWebComponents)
+
 | contents | describe |
 | ---------------------| -------------- |
 | fireworks_effects           | Simple particle fireworks special effects |
@@ -27,7 +29,7 @@ This project collects interesting front-end special effects webpage source code,
 ### [font_of_fireworks](https://blog.hongmaple.top/StaticWebComponents/font_of_fireworks)
 <img src="img/font_of_fireworks.png" alt="fireworks_effects">
 
-### [fruit_slice](https://blog.hongmaple.top/StaticWebComponents/fruit_slice)
+### [fruit_slice](https://blog.hongmaple.top/StaticWebComponents/fruit_slice/sgrz/)
 <img src="img/fruit_slice.png" alt="fireworks_effects">
 
 ### [love_photo_wall](https://blog.hongmaple.top/StaticWebComponents/love_photo_wall)

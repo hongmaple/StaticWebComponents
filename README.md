@@ -5,6 +5,8 @@
 # 项目介绍
 本项目收集有趣的前端特效网页源码，有游戏，祝福特效等
 
+源码地址：[StaticWebComponents](https://gitee.com/hongmaple/StaticWebComponents)
+
 | 目录 | 描述 |
 | ---------------------| -------------- |
 | fireworks_effects           | 简单的粒子烟花特效 |
@@ -27,7 +29,7 @@
 ### [font_of_fireworks](https://blog.hongmaple.top/StaticWebComponents/font_of_fireworks)
 <img src="img/font_of_fireworks.png" alt="fireworks_effects">
 
-### [fruit_slice](https://blog.hongmaple.top/StaticWebComponents/fruit_slice)
+### [fruit_slice](https://blog.hongmaple.top/StaticWebComponents/fruit_slice/sgrz/)
 <img src="img/fruit_slice.png" alt="fireworks_effects">
 
 ### [love_photo_wall](https://blog.hongmaple.top/StaticWebComponents/love_photo_wall)
