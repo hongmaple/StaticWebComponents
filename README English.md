@@ -45,3 +45,14 @@ This project collects interesting front-end special effects webpage source code,
 
 ### [xiangqi](https://blog.hongmaple.top/StaticWebComponents/xiangqi)
 <img src="img/xiangqi.png" alt="xiangqi">
+
+## Contact me
+wx: mapleCx331   qq群：[![加入QQ群](https://img.shields.io/badge/628043364-blue.svg)](https://qm.qq.com/q/RuCfOyaOUm)
+
+## Open source is not easy, thank you for tipping
+<table>
+ <td>
+   <td><img style="height: 150px;width: 100px" src="https://gitee.com/hongmaple/netdisk/raw/master/image/wxPay.jpg" alt=""/></td>
+   <td><img style="height: 150px;width: 100px" src="https://gitee.com/hongmaple/netdisk/raw/master/image/zfb.jpg" alt=""/></td>
+ </td>
+</table>
